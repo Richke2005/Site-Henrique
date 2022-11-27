@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+  }
+  
+  .logo {
+    /* background: url("../img/Logo etec invert.jpg") no-repeat 
+       center center;*/
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  main {
+    background: url("../Assets/montain-sunshine.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex; /*propriedade que deixa as contenções do objeto pai flexivel*/
+    justify-content: center; /*propriedade que alinha ao eixo X*/
+    align-items: center; /*propriedade que alinh ao eixo Y*/
+    height: 40vh;
+  }
+  
+  body {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #3b3b3b;
+  }
+
+  .body-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .container{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    background-color: #e84d5b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+  }
+
+  
+  
+  .caixa-header{
+    width: 50vw;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #26979f;
+  padding: 3rem;
+  }
+
+  .caixa-body{
+  align-items:center;
+  border-radius: 60px;
+  background-color: #b4ccb9;
+  padding: 3rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+
+  }
+
+  .body-page2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+
+  }
+
+  h1{
+    color: white;
+    text-shadow:  5px 5px 20px rgba(0, 0, 0, 0.212);
+  }
