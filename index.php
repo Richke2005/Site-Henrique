@@ -31,7 +31,7 @@
         </div>
         <div class="caixar-R">
             Somos uma pequena empresa desenvolvedora de máquinas a longo prazo...
-        </div>
+        </div>                                                                                                                                                                                                                     
     </div>
 </div>
 
